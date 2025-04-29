@@ -1,11 +1,10 @@
 import React from 'react';
-import './Navbar.css';
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link, useLocation } from 'react-router-dom';
 
 const navigation = [
-  { name: 'Laptops', to: '/' },
+  { name: 'Laptops', to: '/laptops' },
   { name: 'Hot Deals', to: '/hot-deals' },
   { name: 'Cart', to: '/cart' }
 ];
@@ -19,7 +18,7 @@ const NavbarComponent = () => {
 
 
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-neutral-700 dark:text-white">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
