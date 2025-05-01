@@ -115,9 +115,6 @@ const FooterComponent = () => {
                             <div
                                 class="gird-cols-1 grid items-center justify-center gap-4 md:grid-cols-3">
                                 <div class="md:mb-6 md:ms-auto">
-                                    <p>
-                                        <strong>Sign up for our newsletter</strong>
-                                    </p>
                                 </div>
 
                                 <div class="relative md:mb-6" data-twe-input-wrapper-init>
@@ -134,13 +131,8 @@ const FooterComponent = () => {
                                 </div>
 
                                 <div class="mb-6 md:me-auto">
-                                    <button
-                                        type="submit"
-                                        class="inline-block rounded px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-surface shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1 dark:bg-neutral-700 dark:text-white"
-                                        data-twe-ripple-init
-                                        data-twe-ripple-color="light">
-                                        Subscribe
-                                    </button>
+                                <button type="Submit"  class="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Subscribe</button>
+
                                 </div>
                             </div>
                         </form>
@@ -148,86 +140,74 @@ const FooterComponent = () => {
 
                     <div class="mb-6">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                            distinctio earum repellat quaerat voluptatibus placeat nam,
-                            commodi optio pariatur est quia magnam eum harum corrupti dicta,
-                            aliquam sequi voluptate quas.
+                        Empowering connections through innovation, integrity, and excellence
                         </p>
                     </div>
 
                     <div class="grid md:grid-cols-2 lg:grid-cols-4">
                         <div class="mb-6">
-                            <h5 class="mb-2.5 font-bold uppercase">Links</h5>
+                            <h5 class="mb-2.5 font-bold uppercase">Customer Care</h5>
 
                             <ul class="mb-0 list-none">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <a href="#!">Contact Us</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 2</a>
+                                    <a href="#!">Return & Refund Policy</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 4</a>
+                                    <a href="#!">FAQs</a>
                                 </li>
                             </ul>
                         </div>
 
                         <div class="mb-6">
-                            <h5 class="mb-2.5 font-bold uppercase">Links</h5>
+                            <h5 class="mb-2.5 font-bold uppercase">About Us</h5>
 
                             <ul class="mb-0 list-none">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <a href="#!">Our Story</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 2</a>
+                                    <a href="#!">Careers</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 4</a>
+                                    <a href="#!">Blog / News</a>
                                 </li>
                             </ul>
                         </div>
 
                         <div class="mb-6">
-                            <h5 class="mb-2.5 font-bold uppercase">Links</h5>
+                            <h5 class="mb-2.5 font-bold uppercase">Community</h5>
 
                             <ul class="mb-0 list-none">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <a href="#!">Forum</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 2</a>
+                                    <a href="#!">Events</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 3</a>
+                                    <a href="#!">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 4</a>
+                                    <a href="#!">Contributors</a>
                                 </li>
                             </ul>
                         </div>
 
                         <div class="mb-6">
-                            <h5 class="mb-2.5 font-bold uppercase">Links</h5>
+                            <h5 class="mb-2.5 font-bold uppercase">Help</h5>
 
                             <ul class="mb-0 list-none">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <a href="#!">Support</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 2</a>
+                                    <a href="#!">terms and Conditions</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 4</a>
+                                    <a href="#!">Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>
@@ -235,10 +215,7 @@ const FooterComponent = () => {
                 </div>
 
                 <div class="w-full bg-black/5 p-4 text-center">
-                    © 2023 Copyright:
-                    <a class="font-semibold" href="https://tw-elements.com/"
-                    >TW Elements</a
-                    >
+                    © 2023 Copyright : EliteWare
                 </div>
             </footer>
 
