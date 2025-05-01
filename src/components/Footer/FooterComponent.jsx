@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const FooterComponent = () => {
     return (
@@ -131,7 +132,7 @@ const FooterComponent = () => {
                                 </div>
 
                                 <div class="mb-6 md:me-auto">
-                                <button type="Submit"  class="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Subscribe</button>
+                                    <button type="Submit" class="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Subscribe</button>
 
                                 </div>
                             </div>
@@ -140,7 +141,7 @@ const FooterComponent = () => {
 
                     <div class="mb-6">
                         <p>
-                        Empowering connections through innovation, integrity, and excellence
+                            Empowering connections through innovation, integrity, and excellence
                         </p>
                     </div>
 
@@ -150,29 +151,28 @@ const FooterComponent = () => {
 
                             <ul class="mb-0 list-none">
                                 <li>
-                                    <a href="#!">Contact Us</a>
+                                    <Link to="/contact-us">Contact Us</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Return & Refund Policy</a>
+                                    <Link to="/return-refund">Return & Refund Policy</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">FAQs</a>
+                                    <Link to="/faqs">FAQs</Link>
                                 </li>
                             </ul>
                         </div>
+                        <div className="mb-6">
+                            <h5 className="mb-2.5 font-bold uppercase">About Us</h5>
 
-                        <div class="mb-6">
-                            <h5 class="mb-2.5 font-bold uppercase">About Us</h5>
-
-                            <ul class="mb-0 list-none">
+                            <ul className="mb-0 list-none">
                                 <li>
-                                    <a href="#!">Our Story</a>
+                                    <Link to="/our-story" className="hover:underline">Our Story</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Careers</a>
+                                    <Link to="/careers" className="hover:underline">Careers</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Blog / News</a>
+                                    <Link to="/blog-news" className="hover:underline">Blog / News</Link>
                                 </li>
                             </ul>
                         </div>
@@ -182,35 +182,37 @@ const FooterComponent = () => {
 
                             <ul class="mb-0 list-none">
                                 <li>
-                                    <a href="#!">Forum</a>
+                                    <a href="/forum">Forum</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Events</a>
+                                    <a href="/events">Events</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Blog</a>
+                                    <a href="/blog">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Contributors</a>
+                                    <a href="/contributors">Contributors</a>
                                 </li>
                             </ul>
                         </div>
+
 
                         <div class="mb-6">
                             <h5 class="mb-2.5 font-bold uppercase">Help</h5>
 
                             <ul class="mb-0 list-none">
                                 <li>
-                                    <a href="#!">Support</a>
+                                    <a href="/support">Support</a>
                                 </li>
                                 <li>
-                                    <a href="#!">terms and Conditions</a>
+                                    <a href="/terms-and-conditions">Terms and Conditions</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Privacy Policy</a>
+                                    <a href="/privacy-policy">Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>
+
                     </div>
                 </div>
 
