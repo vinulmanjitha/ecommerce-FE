@@ -17,6 +17,8 @@ import Contributors from './pages/FooterPages/community/Contributors';
 import Support from './pages/FooterPages/help/Support';
 import TermsAndConditions from './pages/FooterPages/help/TermsAndConditions';
 import PrivacyPolicy from './pages/FooterPages/help/PrivacyPolicy';
+import Item from './pages/Item';
+import AddProduct from './pages/AddProduct';
 
 const PageRouter = () => {
   return (
@@ -27,6 +29,10 @@ const PageRouter = () => {
           <Route path="/laptops" element={<Laptops />} />
           <Route path="/hot-deals" element={<HotDeals />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/item/:id" element={<Item />} />
+          <Route path="/add-product" element={<AddProduct />} />
+
+
           
           {/* Customer Care Pages */}
           <Route path="/contact-us" element={<ContactUs />} />

@@ -6,7 +6,8 @@ import { Link, useLocation } from 'react-router-dom';
 const navigation = [
   { name: 'Laptops', to: '/laptops' },
   { name: 'Hot Deals', to: '/hot-deals' },
-  { name: 'Cart', to: '/cart' }
+  { name: 'Cart', to: '/cart' },
+  {name:'Add Product', to:'/add-product'}
 ];
 
 function classNames(...classes) {
@@ -18,7 +19,7 @@ const NavbarComponent = () => {
 
 
   return (
-    <Disclosure as="nav" className="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-neutral-700 dark:text-white">
+    <Disclosure as="nav" className="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-neutral-900 dark:text-white">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
