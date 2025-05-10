@@ -12,3 +12,16 @@ export async function LoginUser(body) {
         });
     });
   }
+
+  export async function SignUpUser(body) {
+    return new Promise((resolve, reject) => {
+      api("post", "auth", null, "/signup", false, body)
+        .then((res) => {
+            console.log("token",res)
+          resolve(res);
+        })
+        .catch((err) => {
+          reject(new Error(err));
+        });
+    });
+  }

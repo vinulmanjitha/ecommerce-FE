@@ -42,7 +42,7 @@ const AddProduct = () => {
         finalFormData.append("imageFile", form.imageFile.files[0]);
     
         try {
-            const response = await AddNewLaptop(finalFormData); // send FormData
+            const response = await AddNewLaptop(finalFormData); 
             notify();
             setTimeout(() => {
                 navigate('/laptops');

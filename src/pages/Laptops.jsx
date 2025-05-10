@@ -24,6 +24,8 @@ const Laptops = () => {
     const handleOnClick = (id) => {
         navigate(`/item/${id}`);
     };
+    const addItemToCart = (id) => {
+    };
 
     return (
         <div className="bg-zinc-50 min-h-screen p-6">
@@ -53,10 +55,7 @@ const Laptops = () => {
                             <div className="flex items-center justify-between">
                                 <span className="text-sm font-bold text-gray-900 dark:text-black">Rs {laptop.price}/-</span>
                                 <button
-                                    onClick={(e) => {
-                                        e.stopPropagation();
-                                        alert("Add to cart clicked!");
-                                    }}
+                                    onClick={() => addItemToCart(laptop.id)}
                                     className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-2 focus:ring-blue-300 font-medium rounded-md p-2 dark:bg-blue-600"
                                     aria-label="Add to cart"
                                 >

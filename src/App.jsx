@@ -1,10 +1,9 @@
 import React from 'react';
-import NavbarComponent from './components/Navbar/NavbarComponent';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './pages/login';
-import HomeLayout from './layouts/HomeLayout';
 import PageRouter from './PageRouter';
 import 'react-toastify/dist/ReactToastify.css';
+import SignIn from './pages/SignIn';
+import Login from './pages/Login';
 
 const App = () => {
   return (
@@ -12,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/*" element={<PageRouter />} />
         <Route path="/" element={<Login />} />
+        <Route path="/sign-in" element={<SignIn />} />
       </Routes>
     </Router>
   );

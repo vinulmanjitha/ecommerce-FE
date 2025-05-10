@@ -19,6 +19,7 @@ import TermsAndConditions from './pages/FooterPages/help/TermsAndConditions';
 import PrivacyPolicy from './pages/FooterPages/help/PrivacyPolicy';
 import Item from './pages/Item';
 import AddProduct from './pages/AddProduct';
+import SignIn from './pages/SignIn';
 
 const PageRouter = () => {
   return (
@@ -31,6 +32,7 @@ const PageRouter = () => {
           <Route path="/cart" element={<Cart />} />
           <Route path="/item/:id" element={<Item />} />
           <Route path="/add-product" element={<AddProduct />} />
+
 
 
           
@@ -55,6 +57,7 @@ const PageRouter = () => {
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Route>
+
       </Routes>
 
     </div>
